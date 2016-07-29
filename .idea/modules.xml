@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apprentice-10k-lines/apprentice-10k-lines.iml" filepath="$PROJECT_DIR$/apprentice-10k-lines/apprentice-10k-lines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" filepath="$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nate-java-badge.iml" filepath="$PROJECT_DIR$/.idea/nate-java-badge.iml" />
+    </modules>
+  </component>
+</project>
