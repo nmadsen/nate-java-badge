@@ -5,7 +5,7 @@ package nate.badge;
  */
 public class App {
   public static void main(String[] args) {
-    Reader reader = new Reader();
+    //Reader reader = new Reader();
     System.out.println("Hello World!");
   }
 }
