@@ -8,6 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/apprentice-characters/pom.xml" />
         <option value="$PROJECT_DIR$/apprentice-10k-lines/pom.xml" />
+        <option value="$PROJECT_DIR$/apprentice-length-converter-composition/pom.xml" />
+        <option value="$PROJECT_DIR$/apprentice-length-converter-inheritance/pom.xml" />
+        <option value="$PROJECT_DIR$/apprentice-length-converter-static-method/pom.xml" />
       </list>
     </option>
   </component>
@@ -21,5 +24,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
