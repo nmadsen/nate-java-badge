@@ -9,6 +9,6 @@ import java.io.IOException;
  */
 public class Reader {
 	public Reader(String filename) throws IOException {
-		BufferedReader reader = new BufferedReader(new FileReader(filename));
+		//BufferedReader reader = new BufferedReader(new FileReader(filename));
 	}
 }
