@@ -22,3 +22,5 @@ hs_err_pid*
 
 # output from 10k-lines
 10k_lines_*.txt
+
+.idea/workspace.xml
