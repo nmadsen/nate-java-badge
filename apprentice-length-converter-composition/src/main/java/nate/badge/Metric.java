@@ -25,5 +25,4 @@ public class Metric {
   public double kilometersToMilesComposition() {
     return kilometers * 0.62137;
   }
-
 }
