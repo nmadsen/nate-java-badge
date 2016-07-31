@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+    <project.directory>${project.basedir}/target</project.directory>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j.version>1.7.16</slf4j.version>
     <logback.version>1.1.6</logback.version>

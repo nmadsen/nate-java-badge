@@ -24,14 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="apprentice-10k-lines" />
         <module name="apprentice-characters" />
+        <module name="apprentice-encapsulation" />
         <module name="apprentice-length-converter-composition" />
-        <module name="apprentice-length-converter-inheritance" />
-        <module name="apprentice-length-converter-static-method" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apprentice-10k-lines" target="1.5" />
       <module name="apprentice-characters" target="1.5" />
+      <module name="apprentice-encapsulation" target="1.5" />
       <module name="apprentice-length-converter-composition" target="1.5" />
       <module name="apprentice-length-converter-inheritance" target="1.5" />
       <module name="apprentice-length-converter-static-method" target="1.5" />

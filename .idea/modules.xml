@@ -4,9 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/apprentice-10k-lines/apprentice-10k-lines.iml" filepath="$PROJECT_DIR$/apprentice-10k-lines/apprentice-10k-lines.iml" />
       <module fileurl="file://$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" filepath="$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apprentice-encapsulation/apprentice-encapsulation.iml" filepath="$PROJECT_DIR$/apprentice-encapsulation/apprentice-encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/apprentice-length-converter-composition/apprentice-length-converter-composition.iml" filepath="$PROJECT_DIR$/apprentice-length-converter-composition/apprentice-length-converter-composition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apprentice-length-converter-inheritance/apprentice-length-converter-inheritance.iml" filepath="$PROJECT_DIR$/apprentice-length-converter-inheritance/apprentice-length-converter-inheritance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apprentice-length-converter-static-method/apprentice-length-converter-static-method.iml" filepath="$PROJECT_DIR$/apprentice-length-converter-static-method/apprentice-length-converter-static-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nate-java-badge.iml" filepath="$PROJECT_DIR$/.idea/nate-java-badge.iml" />
     </modules>
   </component>

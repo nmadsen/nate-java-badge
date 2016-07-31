@@ -9,8 +9,7 @@
         <option value="$PROJECT_DIR$/apprentice-characters/pom.xml" />
         <option value="$PROJECT_DIR$/apprentice-10k-lines/pom.xml" />
         <option value="$PROJECT_DIR$/apprentice-length-converter-composition/pom.xml" />
-        <option value="$PROJECT_DIR$/apprentice-length-converter-inheritance/pom.xml" />
-        <option value="$PROJECT_DIR$/apprentice-length-converter-static-method/pom.xml" />
+        <option value="$PROJECT_DIR$/apprentice-encapsulation/pom.xml" />
       </list>
     </option>
   </component>
