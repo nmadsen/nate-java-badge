@@ -13,16 +13,16 @@ public class Metric {
     meters = 0;
   }
 
-  public Metric(double k, double m) {
-    kilometers = k;
-    meters = m;
+  public Metric(double kilometers, double meters) {
+    this.kilometers = kilometers;
+    this.meters = meters;
   }
 
   public double metersToFeetComposition() {
-    return meters * 3.2808;
+    return this.meters * 3.2808;
   }
 
   public double kilometersToMilesComposition() {
-    return kilometers * 0.62137;
+    return this.kilometers * 0.62137;
   }
 }
