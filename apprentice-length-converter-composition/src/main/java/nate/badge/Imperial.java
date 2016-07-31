@@ -25,19 +25,19 @@ public abstract class Imperial {
   }
 
   public Imperial(double miles) {
-    this(miles, 5280, 12, false, 'A');
+    this(miles, Distance.MILE.getDistance(), 12, false, 'A');
   }
 
   public Imperial(int numberOfEggs) {
-    this(26.2, 5280, numberOfEggs, false, 'A');
+    this(Distance.MARATHON.getDistance(), Distance.MILE.getDistance(), numberOfEggs, false, 'A');
   }
 
   public Imperial(boolean isTall) {
-    this(26.2, 5280, 12, isTall, 'A');
+    this(Distance.MARATHON.getDistance(), Distance.MILE.getDistance(), 12, isTall, 'A');
   }
 
   public Imperial(char letterGrade) {
-    this(26.2, 5280, 12, false, letterGrade);
+    this(Distance.MARATHON.getDistance(), Distance.MILE.getDistance(), 12, false, letterGrade);
   }
 
   public Imperial(double miles, double feet) {
