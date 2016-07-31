@@ -16,7 +16,14 @@ public class App {
     double feet = 0;
     double miles = 0;
     metric = new Metric(MARATHON, HALF_MAARATHON);
-    Imperial imperial = new ImperialSubClass(MARATHON, HALF_MAARATHON);
+    ImperialSubClass imperial = new ImperialSubClass(MARATHON, HALF_MAARATHON);
+
+    if (imperial instanceof Imperial) {
+      System.out.println("yes");
+    }
+    else {
+      System.out.println("no");
+    }
 
     // why this one?
     kilometers = imperial.milesToKilometersInheritance();
