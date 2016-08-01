@@ -15,8 +15,8 @@ public class App {
     double kilometers = 0;
     double feet = 0;
     double miles = 0;
-    metric = new Metric(MARATHON, HALF_MAARATHON);
-    ImperialSubClass imperial = new ImperialSubClass(MARATHON, HALF_MAARATHON);
+    metric = new Metric(Distance.MARATHON.getDistance(), Distance.HALF_MARATHON.getDistance());
+    ImperialSubClass imperial = new ImperialSubClass(Distance.MARATHON.getDistance(), Distance.HALF_MARATHON.getDistance());
 
     if (imperial instanceof Imperial) {
       System.out.println("yes");
@@ -25,12 +25,9 @@ public class App {
       System.out.println("no");
     }
 
-    // why this one?
     kilometers = imperial.milesToKilometersInheritance();
-    // why this one?
     feet = metric.metersToFeetComposition();
-    // why this one?
-    miles = feetToMetersStatic(MILE);
+    miles = feetToMetersStatic(Distance.MILE.getDistance());
   }
 
   public static double metersToFeetStatic(double meters) {
