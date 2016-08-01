@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" filepath="$PROJECT_DIR$/apprentice-characters/apprentice-characters.iml" />
       <module fileurl="file://$PROJECT_DIR$/apprentice-encapsulation/apprentice-encapsulation.iml" filepath="$PROJECT_DIR$/apprentice-encapsulation/apprentice-encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/apprentice-length-converter-composition/apprentice-length-converter-composition.iml" filepath="$PROJECT_DIR$/apprentice-length-converter-composition/apprentice-length-converter-composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apprentice-parameters/apprentice-parameters.iml" filepath="$PROJECT_DIR$/apprentice-parameters/apprentice-parameters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nate-java-badge.iml" filepath="$PROJECT_DIR$/.idea/nate-java-badge.iml" />
     </modules>
   </component>

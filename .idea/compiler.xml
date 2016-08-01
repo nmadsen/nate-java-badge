@@ -26,6 +26,7 @@
         <module name="apprentice-characters" />
         <module name="apprentice-encapsulation" />
         <module name="apprentice-length-converter-composition" />
+        <module name="apprentice-parameters" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="apprentice-length-converter-composition" target="1.5" />
       <module name="apprentice-length-converter-inheritance" target="1.5" />
       <module name="apprentice-length-converter-static-method" target="1.5" />
+      <module name="apprentice-parameters" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
