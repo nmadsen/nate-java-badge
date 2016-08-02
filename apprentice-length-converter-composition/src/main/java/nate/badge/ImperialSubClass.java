@@ -4,6 +4,10 @@ package nate.badge;
  * Created by roondog on 7/29/16.
  */
 public class ImperialSubClass extends Imperial {
+  public ImperialSubClass() {
+    super(0,0,0,false,'a');
+  }
+
   public ImperialSubClass(double miles, double feet) {
     super(miles,feet);
   }
@@ -15,5 +19,9 @@ public class ImperialSubClass extends Imperial {
   @Override
   public int getNumberOfEggs() {
     return numberOfEggs - 1;
+  }
+
+  public void subMethod() {
+    System.out.println("I am an ImperialSubClass object");
   }
 }
