@@ -28,6 +28,23 @@ public class App {
     kilometers = imperial.milesToKilometersInheritance();
     feet = metric.metersToFeetComposition();
     miles = feetToMetersStatic(Distance.MILE.getDistance());
+
+
+    // casting
+    ImperialSubSubClass imperial1 = new ImperialSubSubClass();
+    imperial1.subMethod();
+//    ImperialSubClass imperial2 = (ImperialSubClass)imperial1;
+    ImperialSubClass imperial2 = new ImperialSubClass();
+    imperial2.subMethod();
+    ImperialSubSubClass imperial3 = (ImperialSubSubClass)imperial2;
+
+    imperial1.subMethod();
+    imperial2.subMethod();
+    imperial3.subMethod();
+    System.out.println(imperial instanceof ImperialSubClass);
+    System.out.println(imperial1 instanceof ImperialSubClass);
+    System.out.println(imperial2 instanceof ImperialSubClass);
+
   }
 
   public static double metersToFeetStatic(double meters) {
