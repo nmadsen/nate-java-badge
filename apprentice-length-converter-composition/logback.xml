@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <logger name="org.familysearch.logging.impl.ContextImpl" level="WARN"/>
+
+    <appender name="compare.log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGGING_HOME}/logs.json</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>/var/log/tomcat8/catalina-app.json.%i</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>2</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>512MB</maxFileSize>
+        </triggeringPolicy>
+        <!-- log compare errors in json -->
+
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <!-- provides the timestamp -->
+                <timestamp/>
+
+                <!-- provides the version -->
+                <arguments/>
+                <mdc/>
+                <loggerName/>
+                <!--<stackTrace/>-->
+                <stackTrace>
+                    <throwableConverter class="net.logstash.logback.stacktrace.ShortenedThrowableConverter">
+                        <maxDepthPerThrowable>full</maxDepthPerThrowable>
+                        <maxLength>full</maxLength>
+                        <shortenedClassNameLength>full</shortenedClassNameLength>
+                    </throwableConverter>
+                </stackTrace>
+
+                <!-- provides the fields in the configured pattern -->
+                <pattern>
+                    <!-- the pattern that defines what to include -->
+                    <pattern>
+                        {
+                        "level": "%level",
+                        "message": "%message"
+                        }
+                    </pattern>
+                </pattern>
+            </providers>
+        </encoder>
+
+    </appender>
+
+    <root level="DEBUG" additivity="false">
+        <appender-ref ref="compare.log"/>
+    </root>
+</configuration>
