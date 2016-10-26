@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * Created by roondog on 7/30/16.
  */
 public class GoodEncapsulation {
-  private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(GoodEncapsulation.class);
 
   private int numerator;
   private int denominator;

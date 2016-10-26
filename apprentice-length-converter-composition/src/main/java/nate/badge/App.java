@@ -11,7 +11,6 @@ public class App {
   static Metric metric;
 
   public static void main(String[] args) {
-    //ConversionTwo reader = new ConversionTwo();
     double kilometers = 0;
     double feet = 0;
     double miles = 0;
@@ -33,6 +32,10 @@ public class App {
     // casting
     ImperialSubSubClass imperial1 = new ImperialSubSubClass();
     ImperialSubClass imperial2 =  (ImperialSubClass)imperial1;
+
+    //show virtual method invocation
+    ImperialSubClass imperialSubSubClass = new ImperialSubSubClass();
+    imperialSubSubClass.subMethod();
 
   }
 

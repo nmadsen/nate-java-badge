@@ -1,6 +1,6 @@
 package nate.badge;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple CharactersApp.
  */
 public class AppTest {}

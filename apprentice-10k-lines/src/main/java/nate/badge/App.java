@@ -23,10 +23,10 @@ public class App {
 
     Collections.sort(lines);
     LOGGER.info("done sorting");
-    //Collections.reverse(lines); // uncomment for reverse
+//    Collections.reverse(lines); // uncomment for reverse
 
     FileWriter writer = new FileWriter("10k_lines_sorted.txt"); // comment for reverse
-    //FileWriter writer = new FileWriter("10k_lines_sorted_reverse.txt"); // uncomment for reverse
+//    FileWriter writer = new FileWriter("10k_lines_sorted_reverse.txt"); // uncomment for reverse
     for (Object line : lines) {
       writer.append(line.toString() + "\n");
     }
