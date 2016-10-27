@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="DEV_HOME" value="/logs" />
+    <property name="DEV_HOME" value="/Users/roondog/loggings" />
 
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
@@ -56,13 +56,14 @@
 
     <!-- Send logs to both console and file audit -->
     <logger name="app.logger" level="debug"
-            additivity="false">
+            additivity="true">
         <appender-ref ref="FILE-AUDIT" />
         <appender-ref ref="STDOUT" />
     </logger>
 
     <root level="error">
         <appender-ref ref="FILE-ERROR" />
+        <appender-ref ref="STDOUT" />
     </root>
 
 </configuration>

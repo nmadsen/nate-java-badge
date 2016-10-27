@@ -22,6 +22,7 @@ public class GoodEncapsulation {
       this.denominator = denominator;
     } catch (IllegalArgumentException e) {
       LOGGER.warn("trying to set denominator to 0. variable set to default value of 1.", e);
+      this.denominator = 1;
     }
   }
 

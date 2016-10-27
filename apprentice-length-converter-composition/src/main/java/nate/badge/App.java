@@ -24,7 +24,7 @@ public class App {
       System.out.println("no");
     }
 
-    kilometers = imperial.milesToKilometersInheritance();
+    kilometers = imperial.milesToKilometersInheritance(); // TODO: rework all of this
     feet = metric.metersToFeetComposition();
     miles = feetToMetersStatic(Distance.MILE.getDistance());
 

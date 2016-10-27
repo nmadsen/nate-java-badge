@@ -16,6 +16,7 @@ public class App {
   public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(new FileReader("10k_lines.txt"));
     ArrayList lines = new ArrayList(10000);
+    LOGGER.debug("here is where we read the file in");
     for (String line = reader.readLine(); line != null; line = reader.readLine()) {
       lines.add(line);
     }
@@ -23,13 +24,15 @@ public class App {
 
     Collections.sort(lines);
     LOGGER.info("done sorting");
-//    Collections.reverse(lines); // uncomment for reverse
-
-    FileWriter writer = new FileWriter("10k_lines_sorted.txt"); // comment for reverse
-//    FileWriter writer = new FileWriter("10k_lines_sorted_reverse.txt"); // uncomment for reverse
+    Collections.reverse(lines); // uncomment for reverse
+    LOGGER.warn("done reversing");
+//
+//    FileWriter writer = new FileWriter("10k_lines_sorted.txt"); // comment for reverse
+    FileWriter writer = new FileWriter("10k_lines_sorted_reverse.txt"); // uncomment for reverse
     for (Object line : lines) {
       writer.append(line.toString() + "\n");
     }
     writer.close();
+    LOGGER.error("this is not an error.");
   }
 }

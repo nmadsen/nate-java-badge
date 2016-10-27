@@ -24,4 +24,9 @@ public class ImperialSubClass extends Imperial {
   public void subMethod() {
     System.out.println("I am an ImperialSubClass object");
   }
+
+  public void subMethod(String stuff) {
+    System.out.println("I am an ImperialSubClass object with stuff:" + stuff);
+
+  }
 }
