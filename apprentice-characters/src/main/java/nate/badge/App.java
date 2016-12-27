@@ -16,7 +16,7 @@ public class App {
   private static void maxNumberOfChars() {
     int i = 0;
     StringBuilder stringBuilder = new StringBuilder();
-    while (true) {
+    while (i < Integer.MAX_VALUE) {
       try {
         stringBuilder.append('a');
       } catch (OutOfMemoryError e) {

@@ -5,7 +5,7 @@ package nate.badge;
  */
 public class ImperialSubClass extends Imperial {
   public ImperialSubClass() {
-    super(0,0,0,false,'a');
+    super(0,0,0,false);
   }
 
   public ImperialSubClass(double miles, double feet) {

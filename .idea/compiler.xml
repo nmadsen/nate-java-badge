@@ -30,7 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="apprentice-10k-lines" target="1.5" />
+      <module name="apprentice-10k-lines" target="1.7" />
       <module name="apprentice-characters" target="1.5" />
       <module name="apprentice-encapsulation" target="1.5" />
       <module name="apprentice-length-converter-composition" target="1.5" />

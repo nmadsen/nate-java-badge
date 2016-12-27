@@ -20,7 +20,7 @@ public class GoodEncapsulation {
         throw new IllegalArgumentException();
       }
       this.denominator = denominator;
-    } catch (IllegalArgumentException e) {
+    } catch (ArithmeticException e) {
       LOGGER.warn("trying to set denominator to 0. variable set to default value of 1.", e);
       this.denominator = 1;
     }
@@ -35,11 +35,11 @@ public class GoodEncapsulation {
 
     try {
       if (denominator == 0) {
-        throw new IllegalArgumentException();
+        throw new ArithmeticException(); // unchecked exception
       }
       this.denominator = denominator;
-    } catch (IllegalArgumentException e) {
-      LOGGER.debug("trying to set denominator to 0. variable not changed.", e);
+    } catch (ArithmeticException e) {
+      LOGGER.warn("trying to set denominator to 0. variable not changed.", e);
     }
   }
 
