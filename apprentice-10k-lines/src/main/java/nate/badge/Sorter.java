@@ -20,9 +20,9 @@ public class Sorter {
     this.reverse = reverse;
   }
 
-  protected void reverseOrderIfNeeded(ArrayList list) {
+  protected void reverseOrderIfNeeded() {
     if (reverse) {
-      Collections.reverse(list);
+      Collections.reverse(lines);
       LOGGER.info("order reversed");
     }
   }

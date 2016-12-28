@@ -18,7 +18,7 @@ public class LineSorter extends Sorter{
     lines = fancyReader.readFile();
     Collections.sort(lines);
     LOGGER.info("done sorting");
-    reverseOrderIfNeeded(lines);
+    reverseOrderIfNeeded();
     writeToFile(outputFile, lines);
   }
 }
